@@ -1,0 +1,7 @@
+local HWIDTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/BobbieTun/HwidGet/main/Whitelist"))()
+local HWID = game:HGetService("RbxAnalyticsService"):GetClientId()
+for i,v in pairs(HWIDTable) do
+    if v == HWID then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BobbieTun/7DeadlySins/main/7DS"))()
+    end
+end
