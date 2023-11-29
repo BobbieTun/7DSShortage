@@ -1,4 +1,4 @@
-local HWIDTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/BobbieTun/HwidGet/main/Whitelist"))()
+local HWIDTable = return {"c712d991-62bc-43c5-b259-4b107d3f328e","dbc0765c-94c7-4541-a65e-b706e55b9c13"}
 local HWID = game:HGetService("RbxAnalyticsService"):GetClientId()
 for i,v in pairs(HWIDTable) do
     if v == HWID then
